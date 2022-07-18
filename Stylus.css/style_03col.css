@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+}
+
+
+
+header{
+    padding: 4rem;
+    background:lightseagreen;
+}
+
+nav{
+    display: flex; /* faz um elemento ficar ao lado outro*/
+    justify-content: space-between;/* faz com que os elementos fiquem em extremidades diferentes*/
+    align-items: center;
+    padding: 1rem;
+    
+
+}
+.bb8 {
+ border-radius: 2rem;
+ height:10rem;
+ width: 10rem;
+}
+
+ul{
+    display: flex; /*  colocarndo os elementos um ao lado do outros*/
+    list-style: none; /* tirando os pontos de listas*/
+    gap: .8rem; /*  dando espaços  entre os elementos */
+    align-items: center;
+    color: white;
+}
+
+ul li:last-child{ /* Pegando apenas o ultimo elemento da lista*/
+background: black;
+color: white;
+padding: .8rem;
+}
+
+img{
+     height: auto;
+     width: 30%;
+     margin-top: 2rem;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap; /* quebrar a linhas entre os elementos*/
+    gap: .8rem; /* espaços entre os elementos*/
+    justify-content: center;
+}
+
+footer {
+    color: white;
+    background-color: brown;
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+   
+
+}
+
+
+
+
+button{
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    gap:.1rem;
+
+
+}
+button img {
+    right: 1em;
+    width: 4rem;
+
+}
+
+button:hover{
+    background-color:blue;
+    color: white;
+
+}
+
+
+
+
+

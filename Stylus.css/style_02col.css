@@ -1,0 +1,58 @@
+
+*{
+    margin: 0; /*Tirando as margens de toda a pagina */
+}
+
+header{
+    padding: 4rem;
+    background: lightgrey;
+}
+
+nav{
+    display: flex; /* faz um elemento ficar ao lado outro*/
+    justify-content: space-between;/* faz com que os elementos fiquem em extremidades diferentes*/
+    align-items: center;
+
+}
+
+.bb8 {
+    border-radius: 2rem;
+    height:10rem;
+    width: 10rem;
+   }
+
+ul{
+    display: flex; /*  colocarndo os elementos um ao lado do outros*/
+    list-style: none; /* tirando os pontos de listas*/
+    gap: .8rem; /*  dando espaços  entre os elementos */
+    align-items: center;
+}
+
+ul li:last-child{ /* Pegando apenas o ultimo elemento da lista*/
+background: black;
+color: white;
+padding: .8rem;
+}
+
+.container{
+    display: flex;
+    gap: 1rem;
+    
+}
+
+aside,main{
+    border: 1px solid;
+    height: 60vw;
+    color: aliceblue;
+}
+
+aside{
+    flex-basis: 25%; /* Cri largura E altura entre os elementos dentro de uma caixa flex*/
+    background-color: brown;
+    margin-bottom: 2rem;
+}
+
+main{
+  flex: 1;
+  background-color: blueviolet;
+}
